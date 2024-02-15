@@ -93,6 +93,24 @@ h2 {
 
 /*--------------------------------------------Id*/
 
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777;
+}
+
 #club-ethos {
     height: 600px;
 }
@@ -236,4 +254,51 @@ h2 {
         text-align: center;
         padding: 0 20px 0 20px;
     }
+}
+
+/*--------------------------------------------Classes*/
+
+.active {
+    border-bottom: 1px solid #777;
+}
+
+.left-about-heading {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777;
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    height: 150px;
 }
