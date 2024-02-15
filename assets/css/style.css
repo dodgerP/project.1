@@ -133,4 +133,51 @@ h2 {
 
 #circle-cover-bg {
     background-image: url("../images/download2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#times {
+    background-image: url("../assets/images/IMG-20230516-WA0018.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    width: 19%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
+}
+
+#times h2 {
+    color: #fafafa;
+}
+
+#photo {
+    clear: both;
+    line-height: 1;
+    column-count: 4;
+    column-gap: 2px;
+}
+
+#photo img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1396px) {
+    #club-ethos{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 }
